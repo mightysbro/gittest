@@ -1,2 +1,6 @@
 git init
 ls -l .git/
+git add .
+git remote add origin https://github.com/mithysbro/gittest.git
+git remote set-url origin git@github.com:mightysbro/gittest.git
+git push -u origin master
